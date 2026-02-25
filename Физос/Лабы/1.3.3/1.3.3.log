@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  24 FEB 2026 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  25 FEB 2026 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2.1.3.tex
-(./2.1.3.tex
+**1.3.3.tex
+(./1.3.3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -432,13 +432,13 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box55
 )
-(./2.1.3.aux
+(./1.3.3.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 .
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `2.1.3.aux'.
+\openout1 = `1.3.3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -521,51 +521,39 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/cm-super/cm-super-t2a.enc}] (./1.3.3.toc
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 26.
+(Font)              using `T2A/cmr/m/n' instead on input line 4.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
+.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 26.
+(Font)              using `OML/cmr/m/it' instead on input line 4.
 
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <20.74> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-6.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-
-LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 26.
-
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <20.74> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc}] (./2.1.3.toc
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <5> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+
+LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
+(Font)              using `OMS/cmr/m/n' instead on input line 4.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
@@ -573,83 +561,138 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <5> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 )
 \tf@toc=\write3
-\openout3 = `2.1.3.toc'.
-
- [1]
-
-Package mathtext Warning: letter `cyrm' used in math mode on input line 83.
+\openout3 = `1.3.3.toc'.
 
 
-Package mathtext Warning: letter `cyrm' used in math mode on input line 83.
+
+Package mathtext Warning: letter `cyrt' used in math mode on input line 65.
 
 
-Package mathtext Warning: letter `CYRG' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrr' used in math mode on input line 65.
+
+[1] [2] [3{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+
+Package mathtext Warning: letter `cyru' used in math mode on input line 324.
 
 
-Package mathtext Warning: letter `cyrc' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrs' used in math mode on input line 324.
 
 
-Package mathtext Warning: letter `CYRG' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrt' used in math mode on input line 324.
 
 
-Package mathtext Warning: letter `cyrc' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrm' used in math mode on input line 324.
 
 
-Package mathtext Warning: letter `CYRG' used in math mode on input line 88.
+Package mathtext Warning: letter `cyru' used in math mode on input line 325.
 
 
-Package mathtext Warning: letter `cyrc' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrs' used in math mode on input line 325.
 
 
-Package mathtext Warning: letter `CYRG' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrt' used in math mode on input line 325.
 
 
-Package mathtext Warning: letter `cyrc' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrm' used in math mode on input line 325.
 
 
-Package mathtext Warning: letter `CYRG' used in math mode on input line 88.
+Package mathtext Warning: letter `cyru' used in math mode on input line 326.
 
 
-Package mathtext Warning: letter `cyrc' used in math mode on input line 88.
+Package mathtext Warning: letter `cyrs' used in math mode on input line 326.
 
-[2]
-<scheme.png, id=29, 600.2425pt x 379.4175pt>
-File: scheme.png Graphic file (type png)
-<use scheme.png>
-Package pdftex.def Info: scheme.png  used on input line 117.
-(pdftex.def)             Requested size: 386.95897pt x 244.60371pt.
-<25.png, id=31, 1345.6674pt x 685.8423pt>
-File: 25.png Graphic file (type png)
-<use 25.png>
-Package pdftex.def Info: 25.png  used on input line 122.
-(pdftex.def)             Requested size: 483.69687pt x 246.51582pt.
-<35.png, id=32, 1345.6674pt x 685.8423pt>
-File: 35.png Graphic file (type png)
-<use 35.png>
-Package pdftex.def Info: 35.png  used on input line 127.
-(pdftex.def)             Requested size: 483.69687pt x 246.51582pt.
 
+Package mathtext Warning: letter `cyrt' used in math mode on input line 326.
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 326.
+
+
+Package mathtext Warning: letter `cyrd' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyrl' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyrd' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyrl' used in math mode on input line 327.
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 327.
+
+<Ust.png, id=35, 1054.94125pt x 595.22375pt>
+File: Ust.png Graphic file (type png)
+<use Ust.png>
+Package pdftex.def Info: Ust.png  used on input line 345.
+(pdftex.def)             Requested size: 241.84843pt x 136.45354pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<45.png, id=33, 1345.6674pt x 685.8423pt>
-File: 45.png Graphic file (type png)
-<use 45.png>
-Package pdftex.def Info: 45.png  used on input line 132.
-(pdftex.def)             Requested size: 483.69687pt x 246.51582pt.
+<Gaz.png, id=37, 489.83pt x 467.7475pt>
+File: Gaz.png Graphic file (type png)
+<use Gaz.png>
+Package pdftex.def Info: Gaz.png  used on input line 351.
+(pdftex.def)             Requested size: 241.84843pt x 230.93976pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<55.png, id=34, 1345.6674pt x 685.8423pt>
-File: 55.png Graphic file (type png)
-<use 55.png>
-Package pdftex.def Info: 55.png  used on input line 137.
-(pdftex.def)             Requested size: 483.69687pt x 246.51582pt.
+<Figure_1.png, id=38, 867.24pt x 578.16pt>
+File: Figure_1.png Graphic file (type png)
+<use Figure_1.png>
+Package pdftex.def Info: Figure_1.png  used on input line 357.
+(pdftex.def)             Requested size: 483.69687pt x 322.47055pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./scheme.png> <./25.png>] [4 <./35.png> <./45.png>] [5 <./55.png>]
-(./2.1.3.aux)
+<Figure_2.png, id=39, 462.528pt x 346.896pt>
+File: Figure_2.png Graphic file (type png)
+<use Figure_2.png>
+Package pdftex.def Info: Figure_2.png  used on input line 363.
+(pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figure_3.png, id=40, 462.528pt x 346.896pt>
+File: Figure_3.png Graphic file (type png)
+<use Figure_3.png>
+Package pdftex.def Info: Figure_3.png  used on input line 368.
+(pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figure_4.png, id=41, 462.528pt x 346.896pt>
+File: Figure_4.png Graphic file (type png)
+<use Figure_4.png>
+Package pdftex.def Info: Figure_4.png  used on input line 373.
+(pdftex.def)             Requested size: 241.84843pt x 181.38736pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figure_5.png, id=42, 867.24pt x 361.35pt>
+File: Figure_5.png Graphic file (type png)
+<use Figure_5.png>
+Package pdftex.def Info: Figure_5.png  used on input line 378.
+(pdftex.def)             Requested size: 483.69687pt x 201.5441pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6 <./Ust.png> <./Gaz.png>] [7 <./Figure_1.png> <./Figure_2.png>] [8 <./Fig
+ure_3.png> <./Figure_4.png> <./Figure_5.png>] (./1.3.3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -660,32 +703,32 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6525 strings out of 474222
- 105360 string characters out of 5748734
- 1938975 words of memory out of 5000000
- 28721 multiletter control sequences out of 15000+600000
- 572402 words of font info for 63 fonts, out of 8000000 for 9000
+ 6531 strings out of 474222
+ 105612 string characters out of 5748734
+ 1952975 words of memory out of 5000000
+ 28726 multiletter control sequences out of 15000+600000
+ 570003 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,762b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,65p,1095b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1728.pfb>
-Output written on 2.1.3.pdf (6 pages, 564989 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx10
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc144
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728
+.pfb>
+Output written on 1.3.3.pdf (9 pages, 590826 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,12 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Аннотация}{1}{}%
+\contentsline {section}{\numberline {2}Теоретические сведения}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Течение Пуазейля}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Длина установления течения}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Вязкость газов}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Турбулентность}{2}{}%
+\contentsline {section}{\numberline {3}Экспериментальная установка}{3}{}%
+\contentsline {section}{\numberline {4}Методика измерений}{3}{}%
+\contentsline {section}{\numberline {5}Результаты измерений и обработка данных}{3}{}%
+\contentsline {section}{\numberline {6}Выводы и результаты}{5}{}%
+\contentsline {section}{\numberline {7}Приложения}{5}{}%

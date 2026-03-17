@@ -1,0 +1,13 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Аннотация}{1}{}%
+\contentsline {section}{\numberline {2}Описание работы}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Теоретические сведения}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Экспериментальная установка}{2}{}%
+\contentsline {section}{\numberline {3}Методика измерений}{3}{}%
+\contentsline {section}{\numberline {4}Результаты измерений и обработка данных}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Первое измерение}{3}{}%
+\contentsline {subsection}{\numberline {4.2}Второе измерение}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Третье измерение}{4}{}%
+\contentsline {subsection}{\numberline {4.4}Зависимость $\mu _{\text {д--Т}}$ от $1/T$}{4}{}%
+\contentsline {section}{\numberline {5}Вывод}{4}{}%
+\contentsline {section}{\numberline {6}Приложения}{5}{}%

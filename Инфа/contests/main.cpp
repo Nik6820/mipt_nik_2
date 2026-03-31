@@ -1,42 +1,26 @@
-#include "iostream"
+#include <iostream>
+#include <string>
 using namespace std;
 
-class Animal {
-public:
-    virtual string getType() = 0;
-    virtual bool isDangerous() = 0;
+bool check_them::operator==(student& st1, student& st2) {
+    return st1.id_number_string==st2.id_number_string;
+}
+
+
+
+template<typename T>
+bool check_them(T& x, T& y, T& z);  
+
+struct student {
+    std::string name;
+    std::string id_number_string;
 };
 
-class ZooKeeper {
-public:
-    int count = 0;
-    // Создаём смотрителя зоопарка
-    ZooKeeper() {
-        
-    }
-
-    // Смотрителя попросили обработать очередного зверя.
-    // Если зверь был опасный, смотритель фиксирует у себя этот факт.
-    void handleAnimal(Animal* a){
-        count+=a->isDangerous();
-    }
-
-    // Возвращает, сколько опасных зверей было обработано на данный момент.
-    int getDangerousCount(){
-        return count;
-    }
-};
-
-int main(){
-    ZooKeeper z;
-    Monkey *m = new Monkey();
-    z.handleAnimal(m);
-    delete m;
-    m = new Monkey();
-    z.handleAnimal(m);
-    delete m;
-    Lion *l = new Lion();
-    z.handleAnimal(l);
-    delete l;
-    cout << z.getDangerousCount() << endl;
+int main()
+{
+    student a = {"Andy", "1234 123123"};
+    student b = {"Andrew", "1234 123123"};
+    student c = {"Andy", "1234123123"};
+    cout << boolalpha << "Check result is: " << check_them(a, b, c) << endl;
+    return 0;
 }
